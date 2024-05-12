@@ -1,0 +1,20 @@
+{
+  "name": "redis-clone",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "rm -rf dist && tsc",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "nodemon": "^3.1.0",
+    "tsx": "^4.10.0",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
